@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<SplitPane dividerPositions="0.2562814070351759" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.MainInterface">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="150.0" prefWidth="160.0">
+         <children>
+            <Label fx:id="player1" layoutX="50.0" layoutY="28.0" text="Label" />
+            <Label fx:id="player2" layoutX="367.0" layoutY="28.0" text="Label" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+             <Line endX="107.5" layoutX="313.0" layoutY="135.0" startX="-124.20709228515625" />
+            <Line endX="138.5" layoutX="281.0" layoutY="205.0" startX="-92.0" />
+            <Line endX="-100.86328125" endY="200.3017578125" layoutX="368.0" layoutY="74.0" startX="-100.0" startY="-6.5" />
+            <Line endX="94.0" endY="-12.0" layoutX="250.0" layoutY="81.0" startX="94.0" startY="192.0" />
+            <Line endX="99.5" endY="-2.5" layoutX="90.0" layoutY="70.0" startX="99.5" startY="203.0" />
+            <Line endX="-99.0" endY="200.0" layoutX="520.0" layoutY="73.0" startX="-100.0" startY="-5.5" />
+            <Line endX="138.5" endY="0.5" layoutX="282.0" layoutY="273.0" startX="-90.79290771484375" startY="0.5" />
+            <Line endX="139.5" endY="-1.0" layoutX="281.0" layoutY="68.0" startX="-92.0" startY="-1.0" />
+            <Text onMouseClicked="#playturn" fx:id="box_00" layoutX="191.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_01" layoutX="267.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_02" layoutX="343.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_12" layoutX="343.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_11" layoutX="269.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_10" layoutX="191.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_20" layoutX="191.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_21" layoutX="269.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+            <Text onMouseClicked="#playturn" fx:id="box_22" layoutX="345.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" textAlignment="CENTER" wrappingWidth="76.13671875">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
